@@ -1,0 +1,165 @@
+html{
+    margin: 0px;
+}
+
+body{
+    margin: auto;
+}
+
+#school_info{
+    float:left;
+    margin: 20px;
+    display: inline-block;
+}
+
+#global_links{
+    float:right;
+}
+
+#page_header{
+    background-color: #252061;
+    color:#fff;
+    padding:0 20 0 20px;
+    
+    border: 1px solid #999;
+    -webkit-box-shadow: 10px 10px 18px rgba(0, 0, 0, 2);
+    -moz-box-shadow: 10px 10px 18px rgba(0, 0, 0, 2);
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 2);
+}
+
+
+#page_header a{
+    color:#fff;
+    margin:10px;
+}
+
+
+#header_links{
+    clear:both;
+}
+
+
+#header_links a{
+    background-color: #000;
+    margin: 2.5px;
+    margin-bottom: 5px;
+    padding:5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    min-width: 100px;
+    width: 13%;
+    
+    
+    
+    padding:10px;
+    border: 1px solid #999;
+    -webkit-box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+}
+
+
+#header_links a:active{
+    background-color: #111111;
+}
+
+#header_links a:hover{
+    background-color: #CA1C20;
+}
+
+#page_body{
+    padding: 20px;
+    min-height: 700px;
+}
+
+#footer{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.error_label{
+    color:red;
+    font-size: 14pt;
+}
+
+.question{
+    color: blue;
+    font-size: 16pt;
+}
+
+#total_summary{
+    font-size: 20pt;
+    width:100%;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.field
+{
+    display:block;
+    font-size: 14pt;
+    margin: 5px;
+}
+
+.hidden{
+   display: none; 
+}
+
+.unpaid{
+    background-color:#610b0b;  
+}
+
+.complete{
+    background-color:green;    
+}
+
+.incomplete{
+    background-color:#886a0b;
+}
+
+.unpaid, .complete, .incomplete
+{
+    font-weight: bold;
+    color:white;
+}
+
+.scholarship
+{
+    color:green;
+    font-weight: bold;
+}
+
+.enrollment_statistic{
+    border:solid;
+    width: 350px;
+    margin: 10px;
+    padding:5px;
+    background-color: #D4D4FF;
+    display:inline-block;
+}
+
+.enrollment_statistic nav{
+    display: inline-block;
+}
+
+.enrollment_statistic nav.label
+{  
+    font-weight: bold;
+    width:250px;
+    color:#500000;
+    margin-bottom: 5px;
+    border-bottom: ridge 2px;
+}
+
+.enrollment_statistic nav:first-child
+{
+    margin-bottom: 5px;
+    font-size: 2em;
+    font-weight: bold;
+    color:#252061;
+}
+
+
+

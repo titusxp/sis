@@ -1,0 +1,33 @@
+
+a:link {
+	color:#800000;
+	font-size: 1.1em;
+	font-weight:600;
+	font-family: arial, helvetica, sans-serif;
+	}
+a:visited {
+	color:#800000;
+	font-size:1.1em;
+	font-weight:600;
+	font-family:arial, helvetica, sans-serif;
+	text-decoration: none;
+	}
+a:hover {
+	color: #000;
+	font-size:1.1em;
+	font-weight:600;
+	font-family:arial, helvetica, sans-serif;
+	text-decoration: none;
+	}
+a:active {
+	color:#fff;
+	font-size:1.1em;
+	font-weight:600;
+	font-family:arial, helvetica, sans-serif;
+	text-decoration: none;
+	}
+a img {
+	border: none;
+	}
+        
+       

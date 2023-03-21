@@ -1,0 +1,97 @@
+form    
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #D4D4FF;
+    vertical-align: middle;
+    text-decoration: none;
+/*    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;*/
+    padding:10px;
+    border: 1px solid #999;
+    -webkit-box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+}
+
+input, select    
+{
+    color: #376599;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width:375px;
+    display:block;
+    border: 1px solid #999;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+textarea 
+{
+    display:block;
+    width:375px;
+    height:150px;
+}
+
+
+
+input[type="submit"] 
+{
+    display:inline-block;
+    width:200px;
+    right:20px;
+    bottom:20px;
+    background:#09C;
+    color:#423;
+    font-family: Tahoma, Geneva, sans-serif;
+    height:30px;
+/*    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;*/
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover 
+{
+    background:#fff;
+    color:#09C;
+}
+
+input[type="checkbox"] 
+{
+    display:inline;
+    width:25px;
+    height:25px;
+}
+
+.permissions{
+    border-bottom: solid 1px;
+    width:250px;
+}
+
+textarea:focus, input:focus, select:focus
+{
+    border: 2px solid #09C;
+}
+
+#date_field input, #date_field select
+{
+    display:inline;
+}
+
+
+#date_field input
+{
+    width:70px;
+}
+
+#date_field select
+{
+    width:140px;
+}

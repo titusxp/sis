@@ -1,0 +1,53 @@
+.label
+{
+    color:#08B;
+    width: 150px;
+}
+
+.student_field nav
+{
+    display:inline-block;
+    font-size: 14pt;
+    margin: 5px;
+}
+
+.student_field:first-child, .edit_student .student_field
+{
+    border:none;
+}
+
+
+.student_field
+{
+    
+    border-top: solid 1px grey;
+}
+
+#student_number
+{
+    font-size: 13pt;
+    text-decoration: underline;
+}
+
+#student_name
+{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#single_student_block, .shadow_block
+{
+    background-color: #D4D4FF;
+/*    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;*/
+    padding:10px;
+    border: 1px solid #999;
+    -webkit-box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+
+
